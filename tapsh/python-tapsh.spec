@@ -113,5 +113,5 @@ Requires:     python3-gavovot
 
 
 %changelog
-* Sun Apr  2 2017 Christian Dersch <lupinix@mailbox.org> - 0.9.8-1
+* Sun Apr  2 2017 Christian Dersch <lupinix@mailbox.org> - 0.7.1-1
 - initial packaging effort
