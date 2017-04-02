@@ -1,0 +1,12 @@
+diff -Naur tapsh-0.7.1/setup.py tapsh-0.7.1.new/setup.py
+--- tapsh-0.7.1/setup.py	2013-03-14 16:20:59.000000000 +0100
++++ tapsh-0.7.1.new/setup.py	2017-04-02 16:45:22.669030676 +0200
+@@ -6,7 +6,7 @@
+ codeVersion = common.VERSION
+ 
+ 
+-INSTALL_REQUIRES = ["gavoutils", "gavovot", "pysqlite"]
++INSTALL_REQUIRES = ["gavoutils", "gavovot"]
+ if len(sys.argv)>1 and sys.argv[1]=="develop":
+ 	INSTALL_REQUIRES = []
+ DEPENDENCY_LINKS = ["http://vo.ari.uni-heidelberg.de/soft/dist"]
